@@ -1,0 +1,86 @@
+
+
+#tbody{
+    display:flex ;
+    flex-direction: row;
+}
+
+.hit{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+}
+
+.hits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+.first{
+    padding: .5rem;
+    border: 1px solid black;
+    background-color: rgb(79, 79, 243);
+}
+
+.totalscore{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    padding: .5rem;
+    justify-content: center;
+    background-color: rgb(216, 219, 255);
+}
+
+#bot1{
+    background-color: rgb(43, 226, 110);
+    height: 40px;
+    padding: 10px;
+    border-radius: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-color: grey;
+    border-width: 3px;
+}
+
+#bot2{
+    background-color: red;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-color: grey;
+    border-width: 3px;
+}
+
+#titulito{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+
+#bot1:hover{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 20%;
+    border-style: dotted;
+    transition: all 300ms;
+}
+
+#bot2:hover{
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 20%;
+    border-style: dotted;
+    transition: all 300ms;
+}
+
+*{
+    background-color: rgb(183, 166, 192);
+}
